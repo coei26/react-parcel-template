@@ -5,9 +5,10 @@
   "main": "dist/index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url https://tpthoi.github.io/react-parcel-test-upload/ && rm -rf docs && mv dist docs",
+    "build": "parcel build index.html --public-url https://tpthoi.github.io/react-parcel-test-upload && rm -rf docs && mv dist docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "Tyson Thoi",
   "license": "ISC",
   "dependencies": {
